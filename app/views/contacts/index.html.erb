@@ -6,8 +6,8 @@
 	<p>First Name: <%= contact.first_name %></p>
 	<p>Last Name: <%= contact.last_name %></p>
 	<p>Email: <%= contact.email %></p>
-	<p>Phone #: <%= contact.phone_number %></p>
-	<button type="button" class="btn btn-primary">Click here to call this contact!</button>
+	<p>Phone #: <%= contact.phone_with_japanese_prefix %></p>
+	<a href="/contacts/<%= contact.id %>"><button type="button" class="btn btn-primary">Click here to show this contact!</button></a>
 	<br>
 	<br>
 <% end %>

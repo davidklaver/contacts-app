@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  get '/firstcontact' => 'contacts#first_contact'
-  get '/allcontacts' => 'contacts#all_contacts'
+  
+  get '/contacts' => 'contacts#index'
+  get '/contacts/new' => 'contacts#new'
+  post '/contacts' => 'contacts#create'
+  get '/contacts/:id' => 'contacts#show'
+  get '/all_johns' => 'contacts#all_johns'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
