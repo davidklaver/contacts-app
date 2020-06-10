@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 # geocoder gem
-gem 'geocoder', '~> 1.4'
+gem 'geocoder', '~> 1.6'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 # Use Capistrano for deployment
